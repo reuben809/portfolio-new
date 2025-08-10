@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Reuben Portfolio - Professional (Next.js + Tailwind)
 
 This is a professional, minimal & interactive portfolio ready to run locally or deploy.
@@ -25,3 +26,6 @@ Recommended: Vercel (connect GitHub repository and deploy).
 
 - Contact form is a placeholder. Integrate EmailJS or a serverless function to actually send messages.
 - Replace sample project data in `lib/data.js` if needed.
+=======
+# portfolio-new
+>>>>>>> b089df511f21a576e2f65b5bf3219c00aa211333
