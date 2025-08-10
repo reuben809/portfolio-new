@@ -1,0 +1,1 @@
+Place your resume.pdf and profile.jpg in this public/ folder. Replace these placeholders.
