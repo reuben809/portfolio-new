@@ -1,31 +1,73 @@
-<<<<<<< HEAD
 # Reuben Portfolio - Professional (Next.js + Tailwind)
 
-This is a professional, minimal & interactive portfolio ready to run locally or deploy.
+This is a professional, minimal & interactive portfolio built with **Next.js** + **Tailwind CSS**.  
+It includes a theme switcher, animated backgrounds (tsparticles), and smooth interactive effects.  
 
-## Setup
+> Originally created in the repository `portfolio-new`.
 
-1. Place your `resume.pdf` and `profile.jpg` into `public/` (replace the placeholders).
-2. Install dependencies:
+---
+
+## ✨ Features
+- Minimal, Apple-like design with clean white space
+- Theme switcher (light/dark mode)
+- Animated backgrounds (tsparticles)
+- Parallax scrolling and smooth animations
+- Responsive design
+- Modular components for easy customization
+- Ready to deploy
+
+---
+
+## 📂 Setup
+
+1. Clone the repository:
+```bash
+git clone https://github.com/reuben809/portfolio-new.git
+cd portfolio-new
+
+
+2. Place your `resume.pdf` and `profile.jpg` into the `public/` folder (replace the placeholders).
+
+3. Install dependencies:
+
 ```bash
 npm install
 ```
 
-3. Run dev server:
+4. Run development server:
+
 ```bash
 npm run dev
 ```
 
-Open http://localhost:3000
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-## Deploy
+---
 
-Recommended: Vercel (connect GitHub repository and deploy).
+## 🚀 Deploy
 
-## Notes
+**Recommended:** [Vercel](https://vercel.com/)
 
-- Contact form is a placeholder. Integrate EmailJS or a serverless function to actually send messages.
-- Replace sample project data in `lib/data.js` if needed.
-=======
-# portfolio-new
->>>>>>> b089df511f21a576e2f65b5bf3219c00aa211333
+* Connect your GitHub repository
+* Push changes to `main` branch
+* Vercel will build and deploy automatically
+
+---
+
+## 🛠 Notes
+
+* The contact form is a placeholder.
+  Integrate [EmailJS](https://www.emailjs.com/) or a serverless function for actual email sending.
+* Replace sample data in `lib/data.js` with your own projects, experience, and certifications.
+* Ensure `tsparticles` and `react-tsparticles` are installed for animated backgrounds:
+
+```bash
+npm install tsparticles react-tsparticles
+```
+
+---
+
+## 📜 License
+
+MIT License — free to use and modify.
+
